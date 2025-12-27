@@ -10,9 +10,10 @@ services:
       - PORT=3333
       - HOST=0.0.0.0
       - LOG_LEVEL=info
-      - APP_KEY=D4JIyEa85Bv_lvxIqVtnSlZ5RcBxbiXp
+      - APP_KEY=APP_KEY_HERE
       - NODE_ENV=production
       - SESSION_DRIVER=cookie
     volumes:
       - ./tmp:/app/tmp
+    command: ["sh", "-c", "node ace migration:run --force && node bin/server.js"]
 

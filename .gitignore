@@ -1,0 +1,55 @@
+# Dependencies and AdonisJS build
+node_modules
+build
+tmp
+coverage
+test-results
+
+# Secrets
+.env
+.env.test
+.env.production
+.env.local
+.env.*.local
+
+# Frontend assets compiled code
+public/assets
+public/build
+
+# Build tools specific
+npm-debug.log
+yarn-error.log
+pnpm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-wal
+
+# Editors specific
+.fleet
+.idea
+.vscode
+*.suo
+*.ntvs
+*.njsproj
+*.sln
+*.sw?
+
+# Platform specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+
